@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/XUAPR.sol": "SafeMath"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@chainlink/contracts/src/v0.6/interfaces/AggregatorInterface.sol": {
+			"keccak256": "0xbd2b9524ed06f150fefaf4ea600fa8b426d644f17c9f7ddd6d793c19557c23ca",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://32e224693884f94929ab3128a1f780c517c8c294634f7f0ef56b411131fa9858",
+				"dweb:/ipfs/QmYC99ZwJoPRSmBGV69uwQwdotVcGYC2AMUjLnS48PYiXq"
+			]
+		},
+		"contracts/ConsumesPriceReferenceXUA_CL.sol": {
+			"keccak256": "0xdf65665be54c70ee88946239ffdde0b0d9ebcdbacb395e646f8aba0b594f4a60",
+			"urls": [
+				"bzz-raw://9a0d618dad36f27ea1c575258e871308de4b12040b84f67d13b959370d77f65f",
+				"dweb:/ipfs/QmaBW6hJKRoWUXVnxeaebuAXLzi9vQRyqUp2Tf9aMEPdTJ"
+			]
+		},
+		"contracts/XUAPR.sol": {
+			"keccak256": "0x4c18887d45fc372f6ed512ce0cfb5194ccd7231525de384ef1cc876c17f484d5",
+			"urls": [
+				"bzz-raw://b29eac67d2d02116d522781692fa34a20199a160bf35f28d776be47636fd9dd1",
+				"dweb:/ipfs/Qma35sqyzBNFzFnmPb5hhiXNVUYW6xd61ocTdjZ9GkKjrz"
+			]
+		}
+	},
+	"version": 1
+}

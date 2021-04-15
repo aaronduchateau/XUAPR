@@ -1,0 +1,92 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getLatestPriceTimestampXUA",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getLatestPriceXUA",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"constructor": "Network: Kovan Aggregator: XAG/USD Address: 0x379589227b15F1a12195D3f2d90bBc9F31f95235",
+				"getLatestPriceTimestampXUA()": {
+					"notice": "Returns the timestamp of the latest price update"
+				},
+				"getLatestPriceXUA()": {
+					"notice": "Returns the latest price"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ConsumesPriceReferenceXUA_CL.sol": "ConsumesPriceReferenceXUA_CL"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@chainlink/contracts/src/v0.6/interfaces/AggregatorInterface.sol": {
+			"keccak256": "0xbd2b9524ed06f150fefaf4ea600fa8b426d644f17c9f7ddd6d793c19557c23ca",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://32e224693884f94929ab3128a1f780c517c8c294634f7f0ef56b411131fa9858",
+				"dweb:/ipfs/QmYC99ZwJoPRSmBGV69uwQwdotVcGYC2AMUjLnS48PYiXq"
+			]
+		},
+		"contracts/ConsumesPriceReferenceXUA_CL.sol": {
+			"keccak256": "0xdf65665be54c70ee88946239ffdde0b0d9ebcdbacb395e646f8aba0b594f4a60",
+			"urls": [
+				"bzz-raw://9a0d618dad36f27ea1c575258e871308de4b12040b84f67d13b959370d77f65f",
+				"dweb:/ipfs/QmaBW6hJKRoWUXVnxeaebuAXLzi9vQRyqUp2Tf9aMEPdTJ"
+			]
+		}
+	},
+	"version": 1
+}

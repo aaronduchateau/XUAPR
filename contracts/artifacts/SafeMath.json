@@ -1,0 +1,60 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"görli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"linkReferences": {},
+			"object": "60566023600b82828239805160001a607314601657fe5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea26469706673582212204e258c9c59d48aabfa4aea65b3cc73eb96ddbc0ce0c4fec522ac0ab0284f2c8264736f6c634300060c0033",
+			"opcodes": "PUSH1 0x56 PUSH1 0x23 PUSH1 0xB DUP3 DUP3 DUP3 CODECOPY DUP1 MLOAD PUSH1 0x0 BYTE PUSH1 0x73 EQ PUSH1 0x16 JUMPI INVALID JUMPDEST ADDRESS PUSH1 0x0 MSTORE PUSH1 0x73 DUP2 MSTORE8 DUP3 DUP2 RETURN INVALID PUSH20 0x0 ADDRESS EQ PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0x4E 0x25 DUP13 SWAP13 MSIZE 0xD4 DUP11 0xAB STATICCALL 0x4A 0xEA PUSH6 0xB3CC73EB96DD 0xBC 0xC 0xE0 0xC4 INVALID 0xC5 0x22 0xAC EXP 0xB0 0x28 0x4F 0x2C DUP3 PUSH5 0x736F6C6343 STOP MOD 0xC STOP CALLER ",
+			"sourceMap": "2262:289:2:-:0;;;;;;;;;;;;;;;;;;;;;;;;;"
+		},
+		"deployedBytecode": {
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "73000000000000000000000000000000000000000030146080604052600080fdfea26469706673582212204e258c9c59d48aabfa4aea65b3cc73eb96ddbc0ce0c4fec522ac0ab0284f2c8264736f6c634300060c0033",
+			"opcodes": "PUSH20 0x0 ADDRESS EQ PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0x4E 0x25 DUP13 SWAP13 MSIZE 0xD4 DUP11 0xAB STATICCALL 0x4A 0xEA PUSH6 0xB3CC73EB96DD 0xBC 0xC 0xE0 0xC4 INVALID 0xC5 0x22 0xAC EXP 0xB0 0x28 0x4F 0x2C DUP3 PUSH5 0x736F6C6343 STOP MOD 0xC STOP CALLER ",
+			"sourceMap": "2262:289:2:-:0;;;;;;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "17200",
+				"executionCost": "97",
+				"totalCost": "17297"
+			},
+			"internal": {
+				"add(uint256,uint256)": "infinite",
+				"sub(uint256,uint256)": "infinite"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": []
+}

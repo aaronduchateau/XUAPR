@@ -12,12 +12,12 @@
 			},
 			{
 				"inputs": [],
-				"name": "getLatestPriceTimestampXUA",
+				"name": "getLatestPrice",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "int256",
 						"name": "",
-						"type": "uint256"
+						"type": "int256"
 					}
 				],
 				"stateMutability": "view",
@@ -25,12 +25,12 @@
 			},
 			{
 				"inputs": [],
-				"name": "getLatestPriceXUA",
+				"name": "getLatestPriceTimestamp",
 				"outputs": [
 					{
-						"internalType": "int256",
+						"internalType": "uint256",
 						"name": "",
-						"type": "int256"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -46,11 +46,11 @@
 			"kind": "user",
 			"methods": {
 				"constructor": "Network: Kovan Aggregator: XAG/USD Address: 0x379589227b15F1a12195D3f2d90bBc9F31f95235",
-				"getLatestPriceTimestampXUA()": {
-					"notice": "Returns the timestamp of the latest price update"
-				},
-				"getLatestPriceXUA()": {
+				"getLatestPrice()": {
 					"notice": "Returns the latest price"
+				},
+				"getLatestPriceTimestamp()": {
+					"notice": "Returns the timestamp of the latest price update"
 				}
 			},
 			"version": 1
@@ -81,10 +81,10 @@
 			]
 		},
 		"contracts/ConsumesPriceReferenceXUA_CL.sol": {
-			"keccak256": "0xdf65665be54c70ee88946239ffdde0b0d9ebcdbacb395e646f8aba0b594f4a60",
+			"keccak256": "0xf0070adb00b2b64ce7bf66200f4062d3de7435feb8b124764a651b49be1d1994",
 			"urls": [
-				"bzz-raw://9a0d618dad36f27ea1c575258e871308de4b12040b84f67d13b959370d77f65f",
-				"dweb:/ipfs/QmaBW6hJKRoWUXVnxeaebuAXLzi9vQRyqUp2Tf9aMEPdTJ"
+				"bzz-raw://8e90b84fa03903cdd818b7d1b63fb2890e3e5950d1cfd9d9cd600aa16354e4fb",
+				"dweb:/ipfs/QmWVDDn7HnCou45Gi8VpTkfNe9DxnBtuYiByU5JLVg51Gi"
 			]
 		}
 	},

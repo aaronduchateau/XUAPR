@@ -18,14 +18,14 @@ contract ConsumesPriceReferenceXUA_CL {
     /**
      * Returns the latest price
      */
-    function getLatestPriceXUA() public view returns (int256) {
+    function getLatestPrice() public view returns (int256) {
         return priceFeed.latestAnswer();
     }
 
     /**
      * Returns the timestamp of the latest price update
      */
-    function getLatestPriceTimestampXUA() public view returns (uint256) {
+    function getLatestPriceTimestamp() public view returns (uint256) {
         return priceFeed.latestTimestamp();
     }
 }

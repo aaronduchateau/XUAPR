@@ -1,10 +1,11 @@
 pragma solidity ^0.6.7;
 import "./ConsumesPriceReferenceXUA_CL.sol";
+import "./ConsumesPriceReferenceETH_CL.sol";
 
-contract ERC20Basic {
+contract XAUPR {
 
-    string public constant name = "ERC20Basic";
-    string public constant symbol = "BSC";
+    string public constant name = "XAUPR";
+    string public constant symbol = "XAUPR";
     uint8 public constant decimals = 18;  
 
 
@@ -21,12 +22,14 @@ contract ERC20Basic {
     using SafeMath for uint256;
     
     ConsumesPriceReferenceXUA_CL public PF;
+    ConsumesPriceReferenceETH_CL public PF2;
 
 
    constructor(uint256 total) public {  
 	totalSupply_ = total;
 	balances[msg.sender] = totalSupply_;
 	PF = new ConsumesPriceReferenceXUA_CL();
+	PF2 = new ConsumesPriceReferenceETH_CL();
     }  
 
     function totalSupply() public view returns (uint256) {
@@ -67,7 +70,11 @@ contract ERC20Basic {
     }
     
     function getPriceOfXUA() public view returns (int256) {
-        return PF.getLatestPriceXUA();
+        return PF.getLatestPrice();
+    }
+    
+    function getPriceOfETH() public view returns (int256) {
+        return PF2.getLatestPrice();
     }
 }
 

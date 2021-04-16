@@ -304,7 +304,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/XUAPR.sol": "ERC20Basic"
+			"contracts/XUAPR.sol": "XAUPR"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -341,10 +341,10 @@
 			]
 		},
 		"contracts/XUAPR.sol": {
-			"keccak256": "0xebb1f8dfaaecf1745de376e309b3cddcedc597dbcc51ff8fd437da2c63a3afc2",
+			"keccak256": "0xf3ecb0ef89490de250b8d573e2beec5960996142c3dfee890bd2a301af44078e",
 			"urls": [
-				"bzz-raw://c776167ee8aac0c8bfd89d03ac0a0fcefc4d3defb2c2f94c3579f3799fe793f8",
-				"dweb:/ipfs/QmesHeHp3Fx6HzQHxzbVfH3ZBurgCF2XNAKWaCXGA9zYLm"
+				"bzz-raw://6a4dfbeaccc11d30ca911fbf05c1ac93e36188c6c0279a0728d617074816b41e",
+				"dweb:/ipfs/QmTkBoMNKHiLivsV4tHcdEAeDB51wgxbBUTzEqGmGMdYw2"
 			]
 		}
 	},

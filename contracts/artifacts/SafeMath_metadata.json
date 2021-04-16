@@ -40,18 +40,25 @@
 				"dweb:/ipfs/QmYC99ZwJoPRSmBGV69uwQwdotVcGYC2AMUjLnS48PYiXq"
 			]
 		},
-		"contracts/ConsumesPriceReferenceXUA_CL.sol": {
-			"keccak256": "0xdf65665be54c70ee88946239ffdde0b0d9ebcdbacb395e646f8aba0b594f4a60",
+		"contracts/ConsumesPriceReferenceETH_CL.sol": {
+			"keccak256": "0x979fabebd446a574b1168fd8ac7541171aa4e242974ee5555f82b4bf38c362c2",
 			"urls": [
-				"bzz-raw://9a0d618dad36f27ea1c575258e871308de4b12040b84f67d13b959370d77f65f",
-				"dweb:/ipfs/QmaBW6hJKRoWUXVnxeaebuAXLzi9vQRyqUp2Tf9aMEPdTJ"
+				"bzz-raw://648b08dd09a4022548a67a47c20b85056ddbe31844b8833ebd838d016a06521b",
+				"dweb:/ipfs/QmPmBUzqrcj51cAaWGBqYjVf9b3DNJhb4qhAzdn8KETuWs"
+			]
+		},
+		"contracts/ConsumesPriceReferenceXUA_CL.sol": {
+			"keccak256": "0xf0070adb00b2b64ce7bf66200f4062d3de7435feb8b124764a651b49be1d1994",
+			"urls": [
+				"bzz-raw://8e90b84fa03903cdd818b7d1b63fb2890e3e5950d1cfd9d9cd600aa16354e4fb",
+				"dweb:/ipfs/QmWVDDn7HnCou45Gi8VpTkfNe9DxnBtuYiByU5JLVg51Gi"
 			]
 		},
 		"contracts/XUAPR.sol": {
-			"keccak256": "0x4c18887d45fc372f6ed512ce0cfb5194ccd7231525de384ef1cc876c17f484d5",
+			"keccak256": "0xf3ecb0ef89490de250b8d573e2beec5960996142c3dfee890bd2a301af44078e",
 			"urls": [
-				"bzz-raw://b29eac67d2d02116d522781692fa34a20199a160bf35f28d776be47636fd9dd1",
-				"dweb:/ipfs/Qma35sqyzBNFzFnmPb5hhiXNVUYW6xd61ocTdjZ9GkKjrz"
+				"bzz-raw://6a4dfbeaccc11d30ca911fbf05c1ac93e36188c6c0279a0728d617074816b41e",
+				"dweb:/ipfs/QmTkBoMNKHiLivsV4tHcdEAeDB51wgxbBUTzEqGmGMdYw2"
 			]
 		}
 	},
